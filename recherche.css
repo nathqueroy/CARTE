@@ -1,0 +1,46 @@
+body {
+    background:rgb(43,127,192)
+    }
+    
+    #search {
+    width:208px;
+    height:24px;
+    background:#F5F2F0;
+    box-shadow:1px 1px 2px rgba(0,0,0,.3) inset
+    }
+    
+    #search .btn-left-loupe {
+    display:block;
+    background:url(loupe.jpg) no-repeat 0 0;
+    width:24px;
+    height:24px;
+    float:left;
+    margin:0
+    }
+    
+    #search .btn-right-fleche {
+    display:block;
+    background:url(loupe.jpg) no-repeat 0 0;
+    width:24px;
+    height:24px;
+    float:left;
+    margin:6px 0 0
+    }
+    
+    #search input {
+    outline:0;
+    border:0
+    }
+    
+    #search input[type=text] {
+    display:block;
+    font:300 12px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background:none;
+    text-shadow:0 1px white;
+    float:left;
+    height:24px;
+    width:160px;
+    line-height:25px;
+    color:#666;
+    margin:0
+    }

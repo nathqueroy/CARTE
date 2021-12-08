@@ -1,0 +1,38 @@
+body {
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+  }
+  
+  p {
+    line-height: 1.4;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:focus, a:hover {
+    border-bottom: 1px solid;
+    background: cadetblue;
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+  a[href*="http"] {
+    background: url('https://th.bing.com/th/id/OIP.zyzFjp1IR5_p0g8kEG639gHaHa?w=166&h=180&c=7&r=0&o=5&pid=1.7') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
